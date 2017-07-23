@@ -23,7 +23,6 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp', (err, db) => {
   // });
 
   // query users, find users equal to name kelley Medica and print to screen
-
   db.collection('Users').find({
     name: 'Kelley Medica'
   }).toArray().then((docs) => {
