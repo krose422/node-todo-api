@@ -15,9 +15,9 @@ While Mongo DB is running, in a new terminal
 
 ### Testing
 
-#####To run full test suite:
+##### To run full test suite:
 `npm test`
-#####To run while developing tests:
+##### To run while developing tests:
 `npm run test-watch`
 
 ### Deploy to Heroku
